@@ -35,7 +35,7 @@ ls
 ```
 
 ## Other useful alias
-Setting up MSVC console for building:
+Setting up MSVC console:
 ```
 @DOSKEY vs15x32=%comspec% /k "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcvarsall.bat" x86 $* 
 @DOSKEY vs15x64=%comspec% /k "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcvarsall.bat" amd64 $* 
