@@ -1,5 +1,5 @@
 # Windows Alias
-Create alias for quick use of custom programs on the command prompt in Windows
+Create aliases for quick use of custom programs on the command prompt in Windows
 
 ## Instructions
 ### Create batch file
