@@ -14,8 +14,8 @@ This will use DOSKEY to store aliases e.g.
 @DOSKEY h=DOSKEY /HISTORY
 @DOSKEY alias=if ".$*." == ".." ( DOSKEY /MACROS ) else ( DOSKEY $* )
 ```
-(see example file in this repo 'ExampleAlias.bat')  
-(also see my personal alias file 'Alias.bat')
+*See example file in this repo 'ExampleAlias.bat'*
+*Also see my personal alias file 'Alias.bat'*
 
 ### Add to registry
 Open the register HKEY_LOCAL_MACHINE\Software\Microsoft\Command Processor.  
