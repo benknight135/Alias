@@ -1,8 +1,8 @@
 # Windows Alias
 Create alias for quick use of custom programs on the command prompt in Windows
 
-# Instructions
-## Create batch file
+## Instructions
+### Create batch file
 Create a new alias batch file.
 This will use DOSKEY to store aliases e.g.
 ```
@@ -17,7 +17,7 @@ This will use DOSKEY to store aliases e.g.
 (see example file in this repo 'ExampleAlias.bat')  
 (also see my personal alias file 'Alias.bat')
 
-## Add to registry
+### Add to registry
 Open the register HKEY_LOCAL_MACHINE\Software\Microsoft\Command Processor.  
 This can be done by opening Registery editor from the start menu. Then finding that path.  
 Add a String Value named 'Autorun' by [Right click]->New->String Value->Enter Autorun.  
@@ -28,7 +28,7 @@ C:\Code\Alias\Alias.bat
 Close the registery editor and everything should setup.  
 This batch file will execute every time you open a command prompt.
 
-## Test
+### Test
 Try calling ls from the command prompt 
 ```
 ls
